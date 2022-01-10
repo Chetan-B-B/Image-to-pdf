@@ -1,0 +1,65 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: grey;
+  text-align: center;
+  box-sizing: border-box;
+}
+.navbar {
+  margin: 2rem;
+  padding: 0.6rem;
+}
+
+.main,
+input {
+  margin-bottom: 1rem;
+  padding: 0.3rem;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a.button1 {
+  display: inline-block;
+
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #141414;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  transition: all ease-in 0.2s;
+}
+a.button1:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
