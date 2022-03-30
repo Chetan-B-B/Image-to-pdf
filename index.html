@@ -4,24 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="image to pdf , multiple images to pdf , online image to pdf, image to pdf online , image to pdf converter">
+    <meta name="description" content="free image to pdf conversion with one click">
     <title>Image to pdf</title>
     <link rel="shortcut icon" type="image/x-icon" href="./dist/favicon.ico">
     <link rel="stylesheet" href="style.css">
+    
     <script src="script.js" defer type="module"></script>
+    
+    
 </head>
-<body>
+<body class="container">
     <nav class="navbar">
-       <h1>IMAGE TO PDF</h1> 
+            <!-- <h1 id="logo">C</h1> -->
+    <h1 id="logo">IMAGE TO PDF</h1> 
+
+      <div>
+          <a href="https://www.buymeacoffee.com/chetanbb" target="_blank"><img src="/bmc-button.png" alt="Buy Me A Coffee" style="height: 55px !important;width: 217px !important;" ></a>
+      </div>
 
     </nav>
-    <h2 class="main">Upload your files here</h2>
+    <section class="info">
+        <h2>Sit back, Let us do the work!</h2>
+        <p>Keeps original quality & convert many photos to PDF at the same time  </p>
+    </section>
+    <section class="inputPage">
+
+        <div >
+            <select name="pages" id="page">
+                <option value="A1">A1</option>
+                <option value="A2">A2</option>
+                <option value="A3">A3</option>
+                <option selected value="A4">A4</option>
+                <option value="A5">A5</option>
+                <option value="A6">A6</option>
+                <option value="A7">A7</option>
+                <option value="A8">A8</option>
+              </select>
+            <p class="inputPageValue">
+                Select PageSize...(A1 is Large , A8 is small)
+            </p>
+        </div>
+       
+    </section>
+   
     <form class="form-control">
         <div class="upload-btn-wrapper">
-            <button class="btn">Click Here</button>
+            <button class="btn">Upload
+              <img src="/photo.png" alt="fileUpload" width="25px" height="25px">
+            </button>
             <input type="file" name="myfile" class="inputfile" multiple accept="image/*"/>
           </div>
-       <a href="#" target="_blank" class="button1 " id="convert">Convert</a>
+       <a href="#" target="_blank" class="btn " id="convert">Download <img src="/file.png" alt="fileUpload" width="20px" height="20px"></a>
     </form>
+
+    <section class="footer">
+        <!-- <h2>Your opinion</h2> -->
+        <form name="contact" method="POST" data-netlify="true">
+            <input name="review" type="text" placeholder="Tell us about your opinion">
+            <button  type="submit" class="sendBtn">Send</button>
+        </form>
+        <div class="social">
+          <a href="https://twitter.com/Chetan_B_B" target="_blank"> <img src="/twitter.png" alt="fileUpload" width="35px" height="35px"></a> 
+           <a href="https://www.linkedin.com/in/chetan-bb/" target="_blank"> <img src="/linkedin.png" alt="fileUpload" width="35px" height="35px"></a>
+        </div>
+    </section>
 </body>
 </html>
 
