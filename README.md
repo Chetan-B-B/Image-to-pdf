@@ -14,8 +14,8 @@ Tech stack:
 
 Result :
 Step 1:**Upload image**
+![imgtopdf](https://user-images.githubusercontent.com/76846980/160900813-8d46ce58-36ea-46f6-be42-5857cfda70f8.png)
 
-![first](https://user-images.githubusercontent.com/76846980/148787771-b2e4bb6d-8868-4136-9b4a-781730377783.png)
 
 step 2: **Here is your pdf**
 
