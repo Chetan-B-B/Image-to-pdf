@@ -6,6 +6,9 @@ Another benefit is that we can **convert many photos to PDF** at the same time.
 
 Give a ⭐ to this repo if you appreciate it!
 
+Hosting:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/373ffe05-0815-40a8-80fe-d30458d4ebbc/deploy-status)](https://app.netlify.com/sites/imagestopdf/deploys)
+
 Tech stack:
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
